@@ -18,9 +18,10 @@ console.log(area);
 
 
 //4.3
-let radius2 = 10;
+let radius2 = 10.1;
 
-let height = 20; 
+let height = 20.4; 
 
 
-let areas = Math.PI * radius2 * radius2 * height;
+let areas = (Math.PI * radius2 * radius2 * height).toFixed(2);
+console.log(areas);

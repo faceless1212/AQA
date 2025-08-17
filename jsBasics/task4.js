@@ -14,7 +14,7 @@ let width = 5;
 
 let area2 = length * width;
 
-console.log(area);
+console.log(area2);
 
 
 //4.3

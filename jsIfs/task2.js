@@ -18,3 +18,23 @@ while (i <= 10) {
 }
 
 
+
+
+
+
+let sayname = (name)=> name;
+
+
+const person = {
+  name: "Lena",
+  sayname(){
+    return this.name
+  }
+}
+
+
+
+console.log(sayname("null"))
+
+
+console.log(person)
